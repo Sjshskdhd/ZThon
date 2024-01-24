@@ -91,7 +91,7 @@ async def malath(event):
                 success += 1
             except BaseException:
                 return
-    ZELZAL_BEST_DEV = f"[ᯓ 𝗭𝗧𝗵𝗼𝗻 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اذاعـة خـاص 🚹](t.me/ZThon) .\n\n**⎉╎تمت الاذاعـه لـ اعضـاء الكـروب .. بنجـاح  ✅**\n**⎉╎عـدد {success} عضـو**"
+    ZELZAL_BEST_DEV = f"[ᯓ 𝙎𝙊𝙐𝙍𝘾𝞝★𝞝𝙇𝙂𝘼𝙕𝘼𝙍 - اذاعـة خـاص 🚹](t.me/A_M_030) .\n\n**⎉╎تمت الاذاعـه لـ اعضـاء الكـروب .. بنجـاح  ✅**\n**⎉╎عـدد {success} عضـو**"
     await zzz.edit(ZELZAL_BEST_DEV, link_preview=False)
     try:
         spam_chats.remove(chat_id)
@@ -154,6 +154,6 @@ async def malath(event):
                 pass
             except Exception as e:
                 zzz.edit(f"خطأ في إرسال الرسالة إلى {user_entity.id}: {str(e)}")
-    ZELZAL_BEST_DEV = f"[ᯓ 𝗭𝗧𝗵𝗼𝗻 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اذاعـة زاجـل 🕊](t.me/ZThon) .\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n**⎉╎تمت الاذاعـه .. بنجـاح  ✅**\n**⎉╎عـدد {success} أشخـاص**"
+    ZELZAL_BEST_DEV = f"[ᯓ 𝙎𝙊𝙐𝙍𝘾𝞝★𝞝𝙇𝙂𝘼𝙕𝘼𝙍 - اذاعـة زاجـل 🕊](t.me/A_M_030) .\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n**⎉╎تمت الاذاعـه .. بنجـاح  ✅**\n**⎉╎عـدد {success} أشخـاص**"
     await zzz.edit(ZELZAL_BEST_DEV, link_preview=False)
 
