@@ -25,7 +25,7 @@ from ..core.managers import edit_delete, edit_or_reply
 from ..helpers.utils import reply_id
 
 
-#الملـف كتابـة زلـزال الهيبـه ⤶ @zzzzl1l خاص بسـورس ⤶ 𝙕𝙏𝙝𝙤𝙣
+#الملـف كتابـة الـجـزار الهيبـه ⤶ @A_M_0_3 خاص بسـورس ⤶ 𝞝𝙇𝙂𝘼𝙕𝘼𝙍
 #الملف متعوب عليه So تخمط وماتذكـر المصـدر == اهينـك
 #ها خماط رمضان وتخمط hhhhhhh
 @zedub.zed_cmd(pattern="اغنيه(?: |$)(.*)")
@@ -38,7 +38,7 @@ async def _(event):
     else:
         await event.edit("**╮ جـارِ البحث ؏ـن الاغنيـٓه... 🎧♥️╰**")
     chat = "@Abm_MusicDownloader_Bot"
-    async with borg.conversation(chat) as conv: # code by t.me/zzzzl1l
+    async with borg.conversation(chat) as conv: # code by t.me/A_M_0_3
         try:
             await conv.send_message("/start")
             await conv.get_response()
@@ -83,7 +83,7 @@ async def _(event):
 
 
 
-#الملـف كتابـة زلـزال الهيبـه ⤶ @zzzzl1l خاص بسـورس ⤶ 𝙕𝙏𝙝𝙤𝙣
+#الملـف كتابـة الـجـزار الهيبـه ⤶ @A_M_0_3 خاص بسـورس ⤶ 𝞝𝙇𝙂𝘼𝙕𝘼𝙍
 #الملف متعوب عليه So تخمط وماتذكـر المصـدر == اهينـك
 #ها خماط رمضان وتخمط hhhhhhh
 @zedub.zed_cmd(pattern="تطبيق(?: |$)(.*)")
@@ -100,7 +100,7 @@ async def _(event):
     else:
         return
     chat = "@apkdl_bot"
-    async with borg.conversation(chat) as conv: # code by t.me/zzzzl1l
+    async with borg.conversation(chat) as conv: # code by t.me/A_M_0_3
         try:
             await conv.send_message("/start")
             await conv.get_response()
@@ -121,7 +121,7 @@ async def _(event):
                 await borg.send_file(
                     event.chat_id,
                     zelzal,
-                    caption=f"**{zelzal.text}\nBy: @ZThon**",
+                    caption=f"**{zelzal.text}\nBy: @A_M_030**",
                 )
 
             else:
@@ -146,7 +146,7 @@ async def _(event):
                 await borg.send_file(
                     event.chat_id,
                     zelzal,
-                    caption=f"**{zelzal.text}\nBy: @ZThon**",
+                    caption=f"**{zelzal.text}\nBy: @A_M_030**",
                 )
 
             else:
@@ -154,7 +154,7 @@ async def _(event):
 
 
 
-#الملـف كتابـة زلـزال الهيبـه ⤶ @zzzzl1l خاص بسـورس ⤶ 𝙕𝙏𝙝𝙤𝙣
+#الملـف كتابـة الـجـزار الهيبـه ⤶ @A_M_0_3 خاص بسـورس ⤶ 𝞝𝙇𝙂𝘼𝙕𝘼𝙍
 #الملف متعوب عليه So تخمط وماتذكـر المصـدر == اهينـك
 #ها خماط رمضان وتخمط hhhhhhh
 @zedub.zed_cmd(pattern="رابط(?:\s|$)([\s\S]*)")
@@ -162,7 +162,7 @@ async def linkapk(event):
     input_str = event.pattern_match.group(1)
     if input_str == "الحذف":
         return
-    chat = "@apkdl_bot" # code by t.me/zzzzl1l
+    chat = "@apkdl_bot" # code by t.me/A_M_0_3
     reply_id_ = await reply_id(event)
     zed = await edit_or_reply(event, "**⎉╎جـارِ البحث عن روابـط التطبيق ...**")
     async with event.client.conversation(chat) as conv:
@@ -179,7 +179,7 @@ async def linkapk(event):
 
 
 
-#الملـف كتابـة زلـزال الهيبـه ⤶ @zzzzl1l خاص بسـورس ⤶ 𝙕𝙏𝙝𝙤𝙣
+#الملـف كتابـة الـجـزار الهيبـه ⤶ @A_M_0_3 خاص بسـورس ⤶ 𝞝𝙇𝙂𝘼𝙕𝘼𝙍
 #الملف متعوب عليه So تخمط وماتذكـر المصـدر == اهينـك
 #ها خماط رمضان وتخمط hhhhhhh
 @zedub.zed_cmd(pattern="فلم ([\s\S]*)")
