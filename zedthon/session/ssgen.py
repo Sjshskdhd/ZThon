@@ -90,7 +90,7 @@ def telethon_session():
     except Exception as er:
         print("Unexpected Error Occurred while Creating Session")
         print(er)
-        print("If you think It as a Bug, Report to @zzzzzl1l\n\n")
+        print("If you think It as a Bug, Report to @A_M_0_3\n\n")
 
 
 def pyro_session():
@@ -128,7 +128,7 @@ def main():
     try:
         type_of_ss = int(
             input(
-                "\nZThon Userbot\n\nWhich session do you want to generate?\n1. Telethon Session.\n2. Pyrogram Session.\n\nEnter choice:  "
+                "\nElgazar Userbot\n\nWhich session do you want to generate?\n1. Telethon Session.\n2. Pyrogram Session.\n\nEnter choice:  "
             )
         )
     except Exception as e:
